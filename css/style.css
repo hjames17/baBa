@@ -1,0 +1,239 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre, 
+form,fieldset,input,textarea,p,blockquote,th,td { 
+padding: 0; 
+margin: 0; 
+} 
+table { 
+border-collapse: collapse; 
+border-spacing: 0; 
+} 
+fieldset,img { 
+border: 0; 
+} 
+address,caption,cite,code,dfn,em,strong,th,var { 
+font-weight: normal; 
+font-style: normal; 
+} 
+ol,ul { 
+list-style: none; 
+} 
+caption,th { 
+text-align: left; 
+} 
+h1,h2,h3,h4,h5,h6 { 
+font-weight: normal; 
+font-size: 100%; 
+} 
+q:before,q:after { 
+content:""; 
+} 
+abbr,acronym { border: 0; 
+}
+
+/*****************************已清空****************************/
+
+/*****************************全局样式**************************/
+body{
+	font-family:"宋体"; color:#544f4b ; font-size:12px;
+}
+a { text-decoration:none;}
+
+.header, .main, .product , .footer{ width:980px; margin:0 auto; }
+/****************************** 头部 logo  *********************/
+
+.header .logo{ float:left; padding:10px 0; 
+}
+
+
+/****************************** advert left 开始*********************/
+.main .advert {}
+.main .advert .ad_left { width: 697px; height:435px;float: left; overflow:hidden;
+}
+.main .advert .ad_left ul li {float: left; 
+}
+/****************************** ad right  开始  *********************/
+.main .advert .ad_right_box { float:right;
+}
+
+.main .ad_right_box { float:right;
+}
+.main .advert .ad_right_box .ad_right_1 { margin-bottom:6px;
+}
+.main .advert .ad_right_box .ad_right_2 { margin-bottom:6px;
+}
+/******************************  按钮的样式  开始  *********************/
+.main .product ul .pr_li .pr_box .price_info .price_add ,.main .product ul .pr_li .pr_box_2 .price_info .price_add ,.main .product ul .pr_li .pr_box_3 .price_info .price_add ,.main .product ul .pr_li .pr_box_4 .price_info .price_add { background:#544F4B; border:none; padding:5px 20px; float:right; font-size:14px; color:#fff; font-weight:bold; }
+.main .product ul .pr_li .pr_box .price_info { width:220px;}
+.main .product ul .pr_li .pr_box .price_info .price_add ,.main .product ul .pr_li .pr_box_2 .price_info .price_add ,.main .product ul .pr_li .pr_box_3 .price_info .price_add ,.main .product ul .pr_li .pr_box_4 .price_info .price_add{_padding:0px 15px; float:right;  }
+
+/******************************  按钮旁边的A 连接  开始  *********************/
+.main .product ul .pr_li .pr_box .price_info a ,.main .product ul .pr_li .pr_box_2 .price_info a ,.main .product ul .pr_li .pr_box_3 .price_info a ,.main .product ul .pr_li .pr_box_4 .price_info a { color:#A2A2A2; display:block; float:left;
+}
+
+/****************************** 控制 banner 开始  *********************/
+
+.main .advert .a1 .a2 .a4 .control{ position:absolute; top:519px; width:152px; z-index: 100; }
+.main .advert .a1 .a2 .control .control_left{ float:left;}
+
+
+.main .advert .a1 .a2 .control .control_left .prev {display:block; width:62px; height:49px;padding:13px 0 7px 14px; background:#544F4B url(../images/banner_rotator_left.jpg) no-repeat  14px  14px ;  }
+.main .advert .a1 .a2 .control .control_right .next{ display:block; width:62px; height:49px;padding:13px 0 7px 14px; background:#544F4B url(../images/banner_rotator_right.jpg) no-repeat  14px  14px ; float:right;}
+
+.main .advert .a1 .a2 .control .control_left a:hover{ background:#F38256 url(../images/banner_rotator_left.gif) no-repeat  14px  14px ; }
+
+.main .advert .a1 .a2 .control .control_right a:hover { background:#F38256 url(../images/banner_rotator_right.gif) no-repeat  14px  14px ; }
+
+
+
+.main .advert .ad_left .control .control_left { float:left; background:#544F4B; }
+.main .advert .ad_left .control .control_right{ float:right; background:#544F4B;   }
+.control{
+	position: relative;
+	z-index: 1;
+}
+.photolist{
+	height: 435px;
+	overflow: hidden;
+	width: 697px;
+	position: relative;
+	z-index: 0;
+}
+.photolist ul{
+	position: absolute;
+	left: 0px;
+	width: 2000px;
+}
+/****************************** 鼠标 hover img 的效果 *********************/
+
+
+
+/****************************** banner  的效果 *********************/
+
+
+.main .advert .a1 {width: 697px; height:400px; float:left; z-index:9}
+
+.a4 { float:left; }
+
+
+.a5 { width: 697px; height:435px; overflow:hidden; position: absolute;}
+
+.a5 ul li { float:left; }
+
+.a6 { width:2091px; position:absolute; top:0; left:0;}
+
+
+/****************************** 产品左右滚动效果 *********************/
+
+.product { width:980px;height:450px; clear:both; }
+
+.b1 h3 { width: 220px; font-size: 12px;}
+
+.b2 { height:50px;  }
+
+.b2 h1 { height:50px; line-height:50px;  float:left;}
+
+.b3 { float:left; margin:14px 0 0 10px;}
+
+.b4 { float:right; height:40px; padding:15px 0 0 0; width:50px;}
+
+.b4 .prevv{ float:left; display: block; background:url(../images/slider_left_arrow.jpg) no-repeat; width:22px; height:22px; }
+
+.b4  .nextt  { display: block; background: url(../images/slider_right_arrow.jpg) no-repeat; width:22px; height:22px; float:left;}
+
+
+.b5 { width:980px;   position:relative; border-bottom:#E9E9E9 2px solid; min-height:500px;    			/*高度最小值设置为：100px*/
+    height:auto !important; /*兼容FF,IE7也支持 !important标签*/
+    height:100px; /*兼容ie6*/
+    overflow:visible;}
+
+.b5 ul li { }
+
+.b6 { width:980px; position:absolute; top:0; left:0; margin: 0 auto;}
+
+.b6 h1 { padding:5px 0 5px 0; }
+
+.b6 h1 a { color:#aaa; }
+
+
+/****************************** hover img *********************/
+
+
+
+.main .product .box .b5 .b6 ul li .img_box .super_a { display:block; height:242px; width:220px;
+display:inline-block;border:3px solid #fff;
+}
+.main .product .box .b5 .b6 ul li .img_box .super_a:hover{ border:3px solid #F38256;}
+
+
+.main .product .box .b5 .b6 ul li .img_box { height:242px; width:220px; }
+
+.hovers{ background:#F38256; color:#FFF;}
+
+
+.main .product .box .b5 .b6 ul li h1 { font-size:12px; height:30px; line-height:30px; color:#000 ; 
+}
+.main .product .box .b5 .b6 ul li .xiaoliang { font-size:12px; height:40px; line-height:30px; border-bottom:1px solid #F38256; width:220px;
+}
+.main .product .box .b5 .b6 ul li h3 { width:220px;  height:50px; line-height:50px; padding:10px 0 0 0 ;
+} 
+.main .product .box .b5 .b6 ul li h3 .bt { float:right; margin:10px 0 10px 10px; height:30px; width:100px; overflow:hidden; _position:relative; _top:-50px; }
+.main .product .box .b5 .b6 ul li h3 .bt .Price { display:block; height:30px; width:100px; background:#544F4B; line-height:30px; text-align:center;color:#fff;}
+
+.main .product .box .b5 .b6 ul li h3 .bt .gogo_1 {height:30px; width:100px; background:#F38256; line-height:30px; display: block;  text-align:center; position:relative; color:#fff;}
+
+
+.footer { width:980px; height:auto; padding:20px;position:relative;
+}
+.main .product .box .b5 .b6 ul li h3 .kankan {  color:#000;
+}
+.main .product .box .b5 .b6 ul .last { margin-right:0px; padding-left:2px;
+}
+.main .product .box .b5 .b6 ul .two {  padding-left:1px;
+}
+.main .product .box .b5 .b6 ul .three { padding-left:1px;
+}
+
+
+/******************************nav a 的样式 *********************/
+
+.nav_box #menu .carte { cursor:pointer; float:left; line-height:40px; font-size:14px; display:block; height:40px;margin:5px 0px; font-weight:bold;  padding: 0px 3px;}
+
+.nav_box #menu a:hover{ background:#F38256; color:#fff;
+}
+
+/******************************产品li 加载内容 *********************/
+.main .product .box .b5 .b6 #content{ margin:0 auto;}
+.main .product .box .b5 .b6 #content  li{ float:left;  display:block; height:450px; width:226px; margin-right:19px;
+}
+
+
+/****************************** nav 开始  *********************/
+
+.nav_box {border-top:1px solid #e5e3e1;
+ border-bottom: 3px solid #F38256;clear:both; height:50px; 
+ margin-bottom:5px; z-index: 999;position:relative; width:100%;
+}
+.nav_box .nav { width:980px; margin:0 auto;
+}
+
+.nav_box #menu { position: absolute;} 
+
+.nav_box #menu .Total_category  {float:left; position: relative;}
+.nav_box #menu .Total_category a{font-size:14px; display: inline-block; padding:0px  15px  0px 15px; _height:40px;}
+.nav_box #menu .Total_category a:hover{ background:#F38256;}
+
+.nav_box #menu .Total_category .Total_children{width:50px; z-index:100; float:left;  display:none;z-index:9999; position: absolute; top:45px; left:0;width:190px;}
+
+.nav_box #menu .Total_category .sort{  background-color:rgba(255, 255, 255, 0.93); background:#fff\9;float:left;height:35px; }
+
+.nav_box #menu .Total_category .sort a{width:220px; color:#544F4B;  font-size:12px; display:inline-block; margin-left:2px;_margin-left:8px; height:20px; line-height:20px; }
+
+.nav_box #menu .Total_category .sort a:hover{ font-weight:bold;border-bottom:dotted 1px #F38256; background:none;}
+
+.nav_box #menu .Total_category .Total_children .bao_li{ 
+width:250px; position:relative; background-color:rgba(255, 255, 255, 0.93); background:#fff\9; border-top:#F38256 3px solid; padding:12px 0 5px 0; height:auto !important;
+
+
+
+
+}
